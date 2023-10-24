@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -45,6 +45,39 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+
+				
+nav a:hover, nav a:focus {
+	background-color: blue;
+	color: white;
+	outline: none;
+}
+
+nav a:active {
+	background-color: darkblue;
+}
+
+@media ( min-width: 600px ) {
+
+	nav a {
+		border: none;
+		display: inline-block;
+	}
+	
+	nav li {
+		display: inline-block;
+	}
+
+}
+
+
+
+ /* a {
+    color: #ffffff;
+    text-decoration: none;
+}
+*/
+
 
 p {
     font-size: 16px;
